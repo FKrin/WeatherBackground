@@ -1,5 +1,5 @@
 const router = require('koa-router')()
-const userService = require('../controllers/mysqlConfig')
+const userService = require('../lib/mysqlConfig')
 
 
 router.get('/', async (ctx, next) => {
